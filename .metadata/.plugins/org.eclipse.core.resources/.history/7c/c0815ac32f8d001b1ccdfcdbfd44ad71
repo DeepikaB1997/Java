@@ -1,0 +1,6 @@
+package com.ecommerce.services;
+
+@Service
+public class CategoryService {
+
+}

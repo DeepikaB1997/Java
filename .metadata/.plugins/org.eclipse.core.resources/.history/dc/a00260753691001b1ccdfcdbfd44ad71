@@ -1,0 +1,6 @@
+package com.cybage;
+
+@Entity
+public class Student {
+
+}

@@ -1,0 +1,12 @@
+package com.cybage.practice;
+
+public class OneTo100 {
+	public static void main(String[] args){
+		
+		int a='a'/'a';
+		
+		
+	//System.out.println(a);
+	}
+
+}

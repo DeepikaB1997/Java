@@ -1,0 +1,17 @@
+package com.cybage;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class StudentService {
+
+	public String saveStudent(Student student) {
+		
+		return "Student information added successfully";
+	}
+	
+	
+	
+	
+
+}

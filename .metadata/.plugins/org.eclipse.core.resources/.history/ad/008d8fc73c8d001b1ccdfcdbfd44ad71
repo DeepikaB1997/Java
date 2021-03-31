@@ -1,0 +1,37 @@
+package com.ecommerce.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ecommerce.entity.Category;
+import com.ecommerce.entity.Products;
+import com.ecommerce.repositaries.CategoryRepositary;
+import com.ecommerce.repositaries.ProductRepositary;
+
+@Service
+public class ProductService  implements IProductService{
+	
+	@Autowired
+	private ProductRepositary productRepositary;
+	
+	@Autowired
+	private CategoryRepositary categoryRepositary;
+	
+
+	@Override
+	public List<Category> findAllCategories() {
+		// find all categories 
+		return categoryRepositary.findAll();
+	}
+
+	@Override
+	public List<Products> findAllProducts() {
+		// TODO Auto-generated method stub
+		return productRepositary.findAll();
+	}
+	
+	
+
+}

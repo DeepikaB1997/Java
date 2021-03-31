@@ -1,0 +1,5 @@
+package com.ecommerce.repositaries;
+
+public interface CategoryRepositary {
+
+}

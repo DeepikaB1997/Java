@@ -1,0 +1,20 @@
+package com.ecommerce.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ecommerce.services.ICategoryService;
+import com.ecommerce.services.IProductService;
+
+@RestController
+public class ProductController {
+	@Autowired
+	private IProductService productService;
+	
+	@Autowired
+	private ICategoryService categoryService;
+	
+	
+	
+
+}

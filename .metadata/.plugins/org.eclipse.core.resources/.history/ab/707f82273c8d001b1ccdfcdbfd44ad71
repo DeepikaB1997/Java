@@ -1,0 +1,15 @@
+package com.ecommerce.services;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.ecommerce.entity.Category;
+import com.ecommerce.entity.Products;
+
+@Service
+public class ProductService  implements IProductService{
+	
+	
+
+}

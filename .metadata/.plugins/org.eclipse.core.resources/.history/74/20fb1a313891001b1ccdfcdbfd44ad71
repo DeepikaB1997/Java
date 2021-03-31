@@ -1,0 +1,12 @@
+package com.cybage;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class StudentService {
+	
+	
+	
+	
+
+}

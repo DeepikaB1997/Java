@@ -1,0 +1,18 @@
+package com.ecommerce.services;
+
+import java.util.List;
+
+import org.springframework.http.ResponseEntity;
+
+import com.ecommerce.entity.Category;
+import com.ecommerce.entity.Products;
+
+public interface IProductService {
+	
+
+	public ResponseEntity<Products> findAllProducts();
+	
+	public List<Products> getProductsByCategory();
+	
+	public Products getProductById(int id)throws Exception;
+}
